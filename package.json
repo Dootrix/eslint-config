@@ -4,8 +4,7 @@
   "description": "Sharable config for ESLint",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint './**/*.js'",
-    "release": "np"
+    "lint": "eslint './**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -46,7 +45,6 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unicorn": "^27.0.0",
-    "np": "^7.3.0",
     "prettier": "^2.2.1"
   }
 }
