@@ -8,8 +8,8 @@ Install this config then run [install-peerdeps][ipeerdeps] to get dependencies
 as development dependencies.
 
 ```
-npm install https://github.com/Dootrix/prettier-config/blob/main/README.md -D
-npx install-peerdeps @dootrix/prettier-config --D
+npm install https://github.com/Dootrix/eslint-config -D
+npx install-peerdeps @dootrix/eslint-config --dev
 ```
 
 Or pick the depenecies you need based on use case. (You may not need them all
