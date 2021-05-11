@@ -1,5 +1,6 @@
+const { rules } = require("../shared/base");
+
 module.exports = {
-  ...require("../shared/base"),
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "unicorn"],
   extends: [
@@ -9,6 +10,7 @@ module.exports = {
     "plugin:unicorn/recommended",
   ],
   rules: {
+    ...rules,
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
