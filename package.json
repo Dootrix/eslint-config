@@ -16,6 +16,9 @@
     "email": "neil.sweeney@dootrix.com",
     "url": "https://wolfiezero.com"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dootrix/eslint-config/issues"
