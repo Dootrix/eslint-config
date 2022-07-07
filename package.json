@@ -1,6 +1,6 @@
 {
   "name": "@dootrix/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sharable config for ESLint",
   "scripts": {
     "test": "npm run lint",
