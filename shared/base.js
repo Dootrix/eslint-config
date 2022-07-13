@@ -10,6 +10,7 @@ module.exports = {
         },
       },
     ],
+    "unicorn/no-array-for-each": "off",
     "unicorn/prevent-abbreviations": [
       "warn",
       {
