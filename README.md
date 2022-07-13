@@ -4,20 +4,16 @@ Sharable config for [ESlint][eslint]
 
 ## Installation
 
-Install this config then run [install-peerdeps][ipeerdeps] to get dependencies
-as development dependencies.
+Install this config using NPM.
 
 ```
-npm install https://github.com/Dootrix/eslint-config -D
-npx install-peerdeps @dootrix/eslint-config --dev
+npm install -D @dootrix/eslint-config
 ```
-
-Or pick the depenecies you need based on use case. (You may not need them all
-espcially if not working with TypeScript).
 
 Then in the .eslintrc.js file (or what ever you may call it)
 
 ```js
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = {
   root: true,
   env: {
@@ -39,6 +35,7 @@ the last item to include (if you want it).
 
 ```
 @dootrix/eslint-config/javascript
+@dootrix/eslint-config/javascript/vue
 @dootrix/eslint-config/javascript/prettier
 ```
 
@@ -70,6 +67,9 @@ as appropriate).
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "typescript.format.enable": false,
   "editor.formatOnSave": true
 }
@@ -78,4 +78,3 @@ as appropriate).
 [eslint]: https://eslint.org/
 [eslintptions]: https://eslint.org/docs/user-guide/configuring/
 [eslintvscode]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[ipeerdeps]: https://www.npmjs.com/package/install-peerdeps
